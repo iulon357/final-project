@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(/fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page1 {
+    background-color: #DDDDDD;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-family: Poppins-ExtraBold;
+    font-size: 40px;
+    color: #1A1A1A;
+}
+
+.logo-text-dot {
+    font-family: Poppins-ExtraBold;
+    font-size: 33px;
+    color: #0081FF;
+}
+
+.under-logo-text {
+    font-family: Montserrat-Regular;
+    font-size: 13px;
+    color: #B3B3B3;
+}
+
+.zero-one {
+    font-family: Poppins-ExtraBold;
+    font-size: 158.3px;
+    color: #1C1C1C;
+}
+
+.about-me {
+    font-family: Poppins-ExtraBold;
+    font-size: 43.17px;
+    color: #373737;
+}
+
