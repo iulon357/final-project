@@ -16,12 +16,26 @@
 
 .page1 {
     background-color: #DDDDDD;
+    height: 100vh;
    
 }
+
+
 
 header {
     display: flex;
     justify-content: space-between;
+    
+}
+
+/* .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
+.logo {
+    padding: 30px;
 }
 
 .logo-text {
@@ -42,15 +56,33 @@ header {
     color: #B3B3B3;
 }
 
+.header-right-side {
+    position: relative;
+    display: flex;
+    padding: 30px;
+    /* align-items: center; */
+}
+
 .zero-one {
     font-family: Poppins-ExtraBold;
     font-size: 158.3px;
     color: #1C1C1C;
+    opacity: 25%;
+    position: relative;
 }
 
 .about-me {
     font-family: Poppins-ExtraBold;
     font-size: 43.17px;
     color: #373737;
+    position: absolute;
+    top: 40%;
 }
 
+.page1-center {
+    display: flex;
+}
+
+.page1-prof1-pic {
+    width: 100%;
+}
