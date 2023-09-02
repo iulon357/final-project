@@ -25,14 +25,9 @@
 header {
     display: flex;
     justify-content: space-between;
-    
+    align-items: flex-start;
 }
 
-/* .logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-} */
 
 .logo {
     padding: 30px;
@@ -58,25 +53,22 @@ header {
 
 .header-right-side {
     position: relative;
-    display: flex;
-    padding: 30px;
-    /* align-items: center; */
 }
 
 .zero-one {
     font-family: Poppins-ExtraBold;
-    font-size: 158.3px;
+    font-size: 158px;
     color: #1C1C1C;
-    opacity: 25%;
-    position: relative;
+    opacity: 50%;
+    padding: 0 30px;
 }
 
 .about-me {
     font-family: Poppins-ExtraBold;
-    font-size: 43.17px;
+    font-size: 43px;
     color: #373737;
     position: absolute;
-    top: 40%;
+    top: 35%;
 }
 
 .page1-center {
