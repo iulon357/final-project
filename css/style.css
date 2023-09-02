@@ -1,80 +1,143 @@
 @font-face {
-    font-family: Poppins-ExtraBold;
-    src: url(/fonts/Poppins-ExtraBold.ttf);
+  font-family: Poppins-ExtraBold;
+  src: url(/fonts/Poppins-ExtraBold.ttf);
 }
 
 @font-face {
-    font-family: Montserrat-Regular;
-    src: url(/fonts/Montserrat-Regular.ttf);
+  font-family: Montserrat-Regular;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: GlacialIndifference-Regular;
+  src: url(/fonts/GlacialIndifference-Regular.ttf);
+}
+
+@font-face {
+  font-family: GlacialIndifference-Bold;
+  src: url(/fonts/GlacialIndifference-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(/fonts/Montserrat-Bold.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .page1 {
-    background-color: #DDDDDD;
-    height: 100vh;
-   
+  background-color: #dddddd;
+  width: 100%;
+  height: 100vh;
 }
-
-
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-
 .logo {
-    padding: 30px;
+  padding: 30px;
 }
 
 .logo-text {
-    font-family: Poppins-ExtraBold;
-    font-size: 40px;
-    color: #1A1A1A;
+  font-family: Poppins-ExtraBold;
+  font-size: 40px;
+  color: #1a1a1a;
 }
 
 .logo-text-dot {
-    font-family: Poppins-ExtraBold;
-    font-size: 33px;
-    color: #0081FF;
+  font-family: Poppins-ExtraBold;
+  font-size: 33px;
+  color: #0081ff;
 }
 
 .under-logo-text {
-    font-family: Montserrat-Regular;
-    font-size: 13px;
-    color: #B3B3B3;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #b3b3b3;
 }
 
 .header-right-side {
-    position: relative;
+  position: relative;
 }
 
 .zero-one {
-    font-family: Poppins-ExtraBold;
-    font-size: 158px;
-    color: #1C1C1C;
-    opacity: 50%;
-    padding: 0 30px;
+  font-family: Poppins-ExtraBold;
+  font-size: 158px;
+  color: #1c1c1c;
+  opacity: 50%;
+  padding: 0 30px;
 }
 
 .about-me {
-    font-family: Poppins-ExtraBold;
-    font-size: 43px;
-    color: #373737;
-    position: absolute;
-    top: 35%;
+  font-family: Poppins-ExtraBold;
+  font-size: 43px;
+  color: #373737;
+  position: absolute;
+  top: 35%;
 }
 
 .page1-center {
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.page1-center-left-side {
+  width: 520px;
 }
 
 .page1-prof1-pic {
-    width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hi {
+  font-size: 49px;
+  font-family: GlacialIndifference-Regular;
+  color: #212121;
+}
+
+.im {
+  font-size: 71px;
+  font-family: GlacialIndifference-Bold;
+  color: #212121;
+}
+
+.web-designer {
+  font-size: 23px;
+  font-family: GlacialIndifference-Regular;
+  color: #212121;
+}
+
+.small-logos {
+  margin-top: 59px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.satisfied-clients {
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: Montserrat-Bold;
+  margin-left: 50%;
+  padding-bottom: 10px;
+  border-bottom: solid 6px #e93656;
+}
+
+.satisfied-clients span {
+  color: #e93656;
+}
+
+@media (max-width: 375px) {
+  .page1-center-left-side {
+    display: none;
+  }
 }
