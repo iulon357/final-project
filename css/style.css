@@ -136,8 +136,35 @@ header {
   color: #e93656;
 }
 
+.page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page2-user {
+  font-size: 40px;
+  font-family: GlacialIndifference-Bold;
+  color: #222222;
+}
+
+.page2-profession {
+  font-size: 14px;
+  font-family: GlacialIndifference-Bold;
+  color: #daae19;
+}
+
+.hire-me-btn {
+  padding: 15px 40px;
+  background-color: #e93656;
+  color: aliceblue;
+  border: none;
+  margin-left: 27%;
+  margin-bottom: 20px;
+}
+/* 
 @media (max-width: 375px) {
   .page1-center-left-side {
     display: none;
   }
-}
+} */
